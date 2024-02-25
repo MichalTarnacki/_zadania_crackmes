@@ -1,0 +1,31 @@
+Dekompliacja C# przy pomocy dotPeek
+
+
+  'a',
+        'b',
+        'd',
+        'e',
+        'f',
+        'i',
+        'm',
+        'o',
+        'p',
+        'q',
+        's',
+        'x',
+        'w',
+        'z'
+
+username może zawierać dowolne cyfry lub znaki z powyzszego zbioru
+
+haslo dowolne ale >=8 znaków
+
+początek hasła/username musi być taki sam jak krótszy string z username/hasła 
+
+jest losowość z ziarnem zależnym od dlugosci username/hasla a wiec czasem wpisane znaki sa zastepowane kolejnym znakiem ascii
+
+zatem moze sie zdarzyc przypadek np username: aaaaaaaaaa hasło: bbbbbbbb,
+
+aaa: bbbbbbb
+
+może być też na odwrot bbb: aaaaaaaa
